@@ -12,7 +12,7 @@ Railsをつかってmacにrails環境をつくるための練習
 1. rails_envディレクトリへ移動する
 2. 下記のコマンドを実行する
 ```
-gem install bundler
+sudo gem install bundler
 ```
 3. 下記のコマンドを実行して、versionが表示されればOK
 ```
@@ -46,11 +46,21 @@ gem "rails"
 ### railsのインストール
 exercise/answers/rails_env に移動し、下記コマンドを実行する。
 ```
-bundle install
+bundle install --path vendor/bundler
 
 結果
 Fetching gem metadata from https://rubygems.org/.................
 ```
+
+#### railsプロジェクトの作成
+```
+bundle exec rails new .
+
+途中でoverwrite ...とでるが、YでOK
+```
+
+### 開く
+
 
 一旦ここまで
 エラーがでたら教えて下さい。
