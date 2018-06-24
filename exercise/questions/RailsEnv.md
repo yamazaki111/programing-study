@@ -59,6 +59,13 @@ bundle exec rails new .
 途中でoverwrite ...とでるが、YでOK
 ```
 
+### 表示確認
+```
+bundle exec rails s
+```
+
+ブラウザで、localhost:3000へアクセスしてrailsがでたらOK
+
 ### 開く
 
 
